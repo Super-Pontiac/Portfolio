@@ -1,0 +1,102 @@
+#navbar{
+    position:fixed;
+    left:0;    
+    padding:2px;
+}
+#navbar header{
+    margin-bottom: 7;
+    font-size: 1.618em;
+
+}
+#navbar a{
+    display:block;
+    list-style-type: none;
+    margin-bottom: 12px;
+    text-decoration: none;
+}
+
+
+body{
+    background-color:rgb(31, 93, 146);
+    color:white;
+}
+
+#WSL_Championship_Tour{
+    padding-top:19px;
+    font-weight: bold;
+    font-size:20px;
+    margin-left:20rem;
+    
+}
+
+#2024_WSL_Championship_Tour {
+    padding-left:20px;
+    margin-right:200rem;
+}
+
+h1{
+    font-size:16px;
+    font-weight: normal;
+    padding-left:20rem;
+}
+
+p{
+    font-weight: bold;
+    color:antiquewhite;
+    font-size:20px;
+    padding-left:20rem;
+}
+
+.container{
+    width:200%; 
+    padding-bottom:2rem;
+    padding-left:20rem;
+}
+
+[name=women]{
+    float:right;
+    width:50%;
+    padding-left:20rem;
+}
+
+
+[name=men]{
+    padding-left:20rem;
+    float:left;
+    width:50%;
+}
+
+
+#footer{
+    font-size:17px;
+    text-align: center;
+
+}
+
+hr:nth-last-of-type(2){
+    margin-top:64px;
+}
+
+hr{
+    height:0.25rem;
+    background-color:cornflowerblue;   
+    border:none;
+}
+
+
+.inline{
+    display:inline;
+    font-size:16px;
+}
+
+section ul{
+    list-style-type: none;
+    padding-right:14rem;
+    text-align:right;   
+}
+
+@media screen and (max-width:525px){
+    html{
+        min-width: 100px;
+    }
+}

@@ -1,0 +1,48 @@
+#title{
+    font-size:40px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight:bold;
+    text-align: center;
+    background-color: rgb(208, 203, 203);
+    margin-top:0;
+}
+
+#tribute-info{
+    font-family: 'Courier New', Courier, monospace;
+    font-size:15px;
+}   
+
+figcaption{
+    font-size:13px;
+    text-align:center;
+    padding-bottom:15px;
+}
+
+ul{
+    display:grid;   
+    grid-gap:12px;
+}
+
+.center{
+    margin:auto;
+    width: 50%;
+    display: grid;
+}
+
+body{
+    background-color: rgba(230, 217, 217, 0.628);
+    font-size:10px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h4{
+    padding-top: 10px;
+    font-size:16px;
+    text-align: center;
+}
+
+#image{
+    max-width:100%;
+    place-content:center;
+    
+}
