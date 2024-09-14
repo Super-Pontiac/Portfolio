@@ -44,5 +44,6 @@ h4{
 #image{
     max-width:100%;
     place-content:center;
-    
+    display:block;
+    margin:auto auto auto auto;
 }
