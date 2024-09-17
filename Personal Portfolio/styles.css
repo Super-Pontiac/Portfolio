@@ -1,0 +1,141 @@
+  html {
+  scroll-behavior:smooth;
+}
+
+:root{
+  --nav_color:#083293;
+}
+
+body{
+  /* background-color:#194242;    night style*/
+  background: linear-gradient(1turn, #3f85a3cb, #f69c3cba);
+}
+
+nav-bar{
+  top:0;
+  position:fixed;
+}
+
+ul {
+  display:flex  ;  
+  list-style-type: none; /*no bullet points*/
+  flex-direction:row;
+  justify-content:space-evenly  ;
+  top:0;  /*nav always at top*/
+  padding:0; /*centers nav*/
+  margin-right: 25px; /*centers nav*/
+  margin-left: -80px;
+} 
+
+ul a{
+  color:#0d8abf; /*nav font color*/
+  font-size:20px;   /*nav font size*/
+  text-decoration:none; /*no underline*/
+  position: fixed;  /*nav always at top*/
+  font-weight: bolder;
+}
+
+@media screen and (max-height:200px){
+  .preview-img{  
+    width:50%;
+    height:60vh;
+  }
+}
+
+
+
+h1{
+  font-size: 45px;
+  text-align: center;
+  color:beige;
+  margin-top:210px;
+}
+
+h2{
+  font-size:43px;  
+  text-align: center;
+  vertical-align:middle; 
+  color:beige;
+}
+
+h3{
+  font-size: 33px;
+  text-align: center;
+  vertical-align:middle;
+  color:antiquewhite;
+  padding-top:60px;
+}
+
+#welcome-section{
+  width: 100%;
+  height:60vh;
+}
+
+.project-tile {
+  display:block;
+}
+
+
+.preview-img{
+  width:50vw;
+  height:60vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.project a{
+  font-size: 33px;
+  text-align: center;
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  margin-bottom:0px;
+}
+
+#contacts{  
+  background-color: rgb(59, 43, 160);
+  width:100%;
+}
+
+.logo{
+  width:15%;
+  height:15%;
+}
+
+table, th, td, tr {
+  border-collapse: collapse;
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  border:1px solid black;
+  border-collapse: collapse;
+  border-style:none;  
+}
+
+.links{
+  color:black;
+  text-decoration: none;
+  text-decoration-line: none;
+  font-size: 16px; 
+  padding-left: 60px;
+}
+
+.logo:nth-of-type(1), .links:nth-of-type(1){
+  padding-left: 100px;
+}
+
+#contacts h3{
+  padding-top:7px;
+}
+
+form a{
+  margin-left:1em;
+}
+
+input::placeholder {
+  width:170px;
+}
+
+input{
+  width:220px;
+  padding-left:1px;
+}
